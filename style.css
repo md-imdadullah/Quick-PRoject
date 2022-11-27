@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300;1,800&family=Poppins:ital,wght@0,500;1,400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    
+    
+body {
+    font-family: 'Inter', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    padding: 20px 0;
+    border-bottom: 2px solid #808080c7;
+}
+
+.container-full {
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {flex-basis: 20%;}
+
+.logo a {}
+
+.logo a img {}
+
+nav {
+    flex-basis: 80%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {}
+
+nav ul li a {
+    color: rgb(4, 4, 4);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    font-weight: 900;
+}
+
+
+nav ul li a:hover {
+    color:#008aff
+}
+
+/* hero banner start */
+
+.hero-banner {
+    padding: 100px;
+    text-align: center;
+}
+
+.container {
+    max-width: 950px;
+    /* height: 77px; */
+    margin: auto;
+    /* display: flex; */
+}
+
+h1 {
+    font-size: 60px;
+    color: #1e1e20;
+    max-width: 750px;
+    margin: auto;
+    text-align: center;
+}
+
+h1 span {
+    display: block;
+    color: #008aff;
+}
+
+p {
+    margin: auto;
+    font-size: 18px;
+    max-width: 850px;
+    text-align: center;
+}
+
+.hero-banner img {}
+
+
+
+/* Feature section */
+
+.feature-section {}
+.feature-section .container{
+    display: flex;
+}
+
+
+.column-1-2 {
+    flex-basis: 50%;
+    color: gray;
+    font-weight: 900;
+}
+
+h2 {}
+h2{font-size: 70px;color: rgb(189, 64, 64);}
+.text-right{}
+
+
+/* Service-section */
+.service-section{} 
+.column-1-3{
+    flex-basis: 33.33%;
+    padding: 20px;
+}
+.column-1-3 div{
+    padding: 3;
+    padding: 100px 48px;
+    padding: 33px;
+}
+.service-1{
+    background: #ff000026;
+}
+.service-2{
+    background: #00800057;
+}
+.service-3{
+    background: #aecb3963;
+}
+h4{}
+
+
+.service-section img{
+    height: 296px;
+    display: block;
+    margin: auto;
+}
+
+footer{
+    margin: 0;
+    background: #008aff;
+    align-items: center;
+    height: 100px;
+    /* margin: auto; */
+    /* width: inherit; */
+}
+ footer p{
+    margin: auto;
+    color: white;
+    padding: 44px;
+}
+ footer p a{}
